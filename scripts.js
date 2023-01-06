@@ -13,7 +13,7 @@ function toggleMode() {
     /*substituir a imagem*/
     if(html.classList.contains('light')) {
         /*se tiver no light mode, adicionar a imagem light*/
-        img.setAttribute('src', './assets/avatar_white.png')
+        img.setAttribute('src', './assets/avatar_light.png')
         img.setAttribute('alt', '<Foto de nickolas rindo com bigode, cavanhaque e de camiseta branca com fundo borrado>')
     }else {
         /*se tiver sem light mode, manter a imagem normal*/
